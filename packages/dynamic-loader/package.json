@@ -1,6 +1,6 @@
 {
   "name": "@nailiable/dynamic-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Import ES modules in JS runtime.",
   "author": {
     "name": "Zero",
