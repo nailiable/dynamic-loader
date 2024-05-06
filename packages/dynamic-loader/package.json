@@ -1,6 +1,6 @@
 {
   "name": "@nailiable/dynamic-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Import ES modules in JS runtime.",
   "author": {
     "name": "Zero",
@@ -34,7 +34,7 @@
   "scripts": {
     "build": "cp ../../README.md README.md && tsup",
     "dev": "tsup --watch",
-    "release": "bumpp && pnpm publish"
+    "release": "cp ../../README.md README.md && tsup && bumpp && pnpm publish"
   },
   "publishConfig": {
     "access": "public",
