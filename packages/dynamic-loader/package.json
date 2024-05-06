@@ -7,6 +7,18 @@
     "email": "zero@naily.cc",
     "url": "https://github.com/nailiable"
   },
+  "keywords": [
+    "import",
+    "loader",
+    "webpack",
+    "dynamic",
+    "runtime",
+    "esm",
+    "es6",
+    "esnext",
+    "module",
+    "jiti"
+  ],
   "exports": {
     ".": {
       "types": {
