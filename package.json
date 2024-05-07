@@ -4,6 +4,8 @@
   "scripts": {
     "build": "pnpm -F @nailiable/dynamic-loader build",
     "release": "pnpm -F @nailiable/dynamic-loader release",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
     "lint": "eslint . --fix",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
@@ -16,6 +18,8 @@
     "@commitlint/types": "^17.8.1",
     "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "@vitest/ui": "^1.6.0",
     "bumpp": "^9.4.1",
     "eslint": "^8.57.0",
     "husky": "^8.0.3",

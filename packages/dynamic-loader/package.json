@@ -54,5 +54,8 @@
   },
   "dependencies": {
     "jiti": "1.21.0"
+  },
+  "devDependencies": {
+    "ts-pattern": "5.1.1"
   }
 }

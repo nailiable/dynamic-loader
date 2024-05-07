@@ -1,3 +1,11 @@
 {
-  "exclude": ["*.cjs", "*.mjs", "eslint.config.js", "**/*dist"]
+  "exclude": [
+    "*.cjs",
+    "*.mjs",
+    "eslint.config.js",
+    "**/*dist",
+    "**/*.cjs",
+    "**/*.mjs",
+    "**/*coverage"
+  ]
 }
